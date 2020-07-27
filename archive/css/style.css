@@ -1,0 +1,24 @@
+/* CSS Document */
+
+html {
+	scroll-behavior: smooth;
+}
+
+.text-black {
+	color: black;
+}
+.m-t-75 {
+	margin-top: 75px;
+}
+
+body {
+	padding-top: 75px;
+}
+.nav-link.active>a, .nav-link.active>a:focus, .nav-link.active>a:hover {
+       color: red !important;
+       background-color: white;
+}
+img {
+	max-width: 115px;
+	max-height: 115px;
+}

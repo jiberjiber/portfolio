@@ -1,0 +1,112 @@
+/* STYLESHEET */
+
+/* Nav Style */
+
+.authorImage {
+    display: block;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-image: url(../img/author.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto;
+}
+
+.logo {
+    display: block;
+    font-weight: bold;
+    font-size: 24pt;
+    width: 100%;
+}
+
+li > a {
+    line-height: 2rem;
+    font-weight: bolder;
+}
+
+.nav-footer {
+    position: absolute;
+    bottom: 40px;
+    font-weight: 500;
+}
+
+/* Carousel Style */
+.slider-item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+
+
+/* Greeting Style */
+.subheading {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.greetingHeader {
+    font-weight: bold;
+}
+
+.greetingTitle {
+    color: goldenrod;
+}
+
+.greetingSubtitle {
+    color: #20b2da;
+}
+
+.greetingText {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.social-list {
+    list-style: none;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+.social-item {
+    display: inline-flex;
+    margin: 0 20px 0 0;
+    padding: 10px;
+}
+
+.social-item>a {
+    height: 50px;
+    width: 50px;
+}
+
+.icon-light {
+    color: rgb(230, 230, 230);
+}
+
+.icon-dark {
+    color: #131313;
+}
+
+#hamburger {
+    z-index: 3;
+    position: fixed;
+    transform: translate(20px, 20px);
+}
+
+.mainPageOverlay {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .mainPageOverlay {
+        display: block;
+        color: rgb(228, 228, 228);
+        font-weight: bolder;
+        font-size: 40pt;
+        text-shadow: 5px 5px 5px rgb(31, 31, 31);
+    }
+}
+
