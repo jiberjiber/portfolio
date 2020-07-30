@@ -1,0 +1,24 @@
+{
+  "name": "bootcamp-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio for Coding Bootcamp, base for professional portfolio site.",
+  "main": "index.js",
+  "dependencies": {
+    "uikit": "^3.5.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiberjiber/bootcamp-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiberjiber/bootcamp-portfolio/issues"
+  },
+  "homepage": "https://github.com/jiberjiber/bootcamp-portfolio#readme"
+}

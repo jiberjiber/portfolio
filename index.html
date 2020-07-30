@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Evan Boswood</title>
+    <meta name="description" content="Professional portfolio for Evan Boswood" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- UIkit CSS -->
+    
+    <link rel="stylesheet" href="./css/uikit.css">
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit-icons.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    
+
+    <!-- Font-Awesome 6 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+        integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <!-- Main page content -->
+    <!-- Left Nav -->
+    <div id="navSection" uk-offcanvas="overlay: true;">
+        <div class="uk-offcanvas-bar">
+            <a href="#navSection" uk-toggle><i class="far fa-times-circle"></i></a>
+            <h1 class="logo">
+                <a href="#">
+                    <span class="authorImage"></span>
+                </a>
+                Evan Boswood
+            </h1>
+            <ul class="uk-nav uk-nav-default">
+                <li id="homeBtn" class="uk-parent">
+                    <a class="navBtn" uk-toggle="#navSection" data-tab="home">Home</a>
+                </li>
+                <li id="webBtn" class="uk-parent">
+                    <a class="navBtn" uk-toggle="#navSection" data-tab="webDev">Web Dev Portfolio</a>
+                </li>
+                <li id="productionBtn" class="uk-parent">
+                    <a class="navBtn" uk-toggle="#navSection" data-tab="production">Live Event Portfolio</a>
+                </li>
+                <li id="contactBtn" class="uk-parent">
+                    <a class="navBtn" uk-toggle="#navSection" data-tab="contact">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-footer">
+                <button class="uk-button uk-button-large">Download my Resume <i
+                        class="fas fa-cloud-download-alt"></i></button>
+            </div>
+        </div>
+    </div>
+
+<div id="pageContainer">
+    <div id="home" class="uk-child-width-expand@s uk-margin-remove-top" uk-grid>
+        <a href="#navSection" id="hamburger" class="uk-float-left uk-position-fixed" style="z-index: 10;" uk-toggle><i
+                class="fas fa-bars fa-4x icon-light"></i></a>
+        <!-- Center Carousel -->
+        <div id="" uk-slideshow="autoplay: true; pause-on-hover: true; animation: fade;">
+            
+            <ul class="uk-slideshow-items" uk-height-viewport>
+                <li>
+                    <img src="img/meduza1.jpg" alt="" uk-cover>
+                    <div class="uk-position-center uk-position-small uk-text-center">
+                        <h1 class="mainPageOverlay">Evan Boswood</h1>
+                        <h1 class="mainPageOverlay">Allume Live Productions</h1>
+                    </div>
+                </li>
+                <li><img src="./img/borgeous1.jpg" alt="" uk-cover></li>
+                <li><img src="./img/meduza2.jpg" alt="" uk-cover></li>
+                <li><img src="./img/borgeous2.jpg" alt="" uk-cover></li>
+                <li><img src="./img/meduza3.jpg" alt="" uk-cover></li>
+                <li><img src="./img/borgeous3.jpg" alt="" uk-cover></li>
+                <li><img src="./img/meduza4.jpg" alt="" uk-cover></li>
+                <li><img src="./img/borgeous4.jpg" alt="" uk-cover></li>
+                <li><img src="./img/meduza5.jpg" alt="" uk-cover></li>
+                <li><img src="./img/borgeous5.jpg" alt="" uk-cover></li>
+                <li><img src="./img/meduza6.jpg" alt="" uk-cover></li>
+                <li><img src="./img/borgeous6.jpg" alt="" uk-cover></li>
+                <li><img src="./img/meduza7.jpg" alt="" uk-cover></li>
+                <li><img src="./img/meduza8.jpg" alt="" uk-cover></li>
+            </ul>
+        </div>
+
+        <!-- Right Greeting -->
+        <div class="uk-width-2-5@s uk-margin-auto-vertical">
+            <div class="uk-flex-auto">
+                <span class="subheading uk-margin-remove-bottom">Hello! I'm</span>
+                <h1 class="uk-margin-small-bottom uk-margin-remove-top greetingHeader">Evan Boswood</h1>
+                <h2 class="uk-margin-small greetingHeader greetingTitle">Production Manager</h2>
+                <h2 class="uk-margin-small greetingHeader greetingSubtitle">Web Developer</h2>
+                <p class="greetingText">
+                    I am a live event
+                    <span class="greetingTitle">Production Manager</span>
+                    and Full-Stack
+                    <span class="greetingSubtitle">Web Developer</span>
+                    from Austin, Texas. I promote energy at concerts and music festivals and professionalism online.
+                </p>
+                <ul class="social-list">
+                    <li class="social-item"><a href="https://www.facebook.com/evan.boswood.39" target="_blank"><i
+                                class="fab fa-facebook-f fa-3x"></i></a></li>
+                    <li class="social-item"><a href="https://www.linkedin.com/in/evan-boswood/" target="_blank"><i
+                                class="fab fa-linkedin-in fa-3x"></i></a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- End Main Page Content -->
+
+
+    <!-- Begin Web Dev Portfolio -->
+    <div id="webDev" class="uk-margin-remove-top" uk-grid>
+        <a href="#navSection" id="hamburger" class="uk-float-left uk-position-fixed uk-margin-small"
+            style="z-index: 10;" uk-toggle><i class="fas fa-bars fa-4x icon-dark"></i></a>
+        <div class="uk-width-1-1@s uk-text-center">
+            <h1>Web Development Portfolio</h1>
+            <p>Below are all the projects I've completed</p>
+        </div>
+
+        <!-- Row 1 -->
+        <div class="uk-width-1-4@s uk-padding uk-text-center">
+            <a href="http://allumeliveproductions.com/" target="_blank">
+                <img class="uk-border-rounded" src="./img/allume2019.gif" alt="Allume Website" uk-img>
+            </a>
+            <p class="uk-text-italic">Allume Live Productions Website</p>
+        </div>
+        <div class="uk-width-1-4@s uk-padding uk-text-center">
+            <a href="https://jiberjiber.github.io/RPS_JS/" target="_blank">
+                <img class="uk-border-rounded" src="./img/rps.png" alt="Javascript Rock Paper Scissors" uk-img>
+            </a>
+            <p class="uk-text-italic">Javascript Rock/Paper/Scissors</p>
+        </div>
+        <div class="uk-width-1-4@s uk-padding uk-text-center">
+            <a href="https://jiberjiber.github.io/password-generator/" target="_blank">
+                <img class="uk-border-rounded" src="./img/pwdgen.png" alt="Password Generator" uk-img>
+            </a>
+            <p class="uk-text-italic">Password Generator</p>
+        </div>
+        <div class="uk-width-1-4@s uk-padding uk-text-center">
+            <a href="https://jiberjiber.github.io/js-quiz/" target="_blank">
+                <img class="uk-border-rounded" src="./img/codequiz.png" alt="Code Quiz" uk-img>
+            </a>
+            <p class="uk-text-italic">Code Quiz</p>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="uk-width-1-4@s uk-padding uk-text-center">
+            <a href="https://jiberjiber.github.io/workday-scheduler/" target="_blank">
+                <img class="uk-border-rounded" src="./img/daysched.png" alt="Day Planner" uk-img>
+            </a>
+            <p class="uk-text-italic">Day Planner</p>
+        </div>
+        <div class="uk-width-1-4@s uk-padding uk-text-center">
+            <a href="https://jiberjiber.github.io/weather-dashboard/" target="_blank">
+                <img class="uk-border-rounded" src="./img/weather.png" alt="Weather Dashboard" uk-img>
+            </a>
+            <p class="uk-text-italic">Weather Dashboard</p>
+        </div>
+        <div class="uk-width-1-4@s uk-padding uk-text-center">
+            <a href="https://jiberjiber.github.io/dog-date/" target="_blank">
+                <img class="uk-border-rounded" src="./img/dogdate.jpg" alt="Dog Date" uk-img>
+            </a>
+            <p class="uk-text-italic">Dog Date (Project 1)</p>
+        </div>
+        <div class="uk-width-1-4@s uk-padding uk-text-center">
+            <a href="https://jiberjiber.github.io/bootcamp-portfolio/" target="_blank">
+                <img class="uk-border-rounded" src="./img/portfolio.jpg" alt="Professional Portfolio" uk-img>
+            </a>
+            <p class="uk-text-italic">This Portfolio</p>
+        </div>
+    </div>
+    <!-- End Web Dev Portfolio -->
+
+
+    <!-- Begin Production Portfolio -->
+    <div id="production" class="uk-margin-remove-top">
+        <a href="#navSection" id="hamburger" class="uk-float-left uk-position-fixed uk-margin-small"
+            style="z-index: 10;" uk-toggle><i class="fas fa-bars fa-4x icon-dark"></i></a>
+        <div class="uk-width-1-1@s uk-text-center">
+            <h1>Production Portfolio</h1>
+            <p>Coming soon</p>
+        </div>
+    </div>
+    <!-- End Production Portfolio -->
+
+
+    <!-- Begin Contact Page -->
+    <div id="contact" class="uk-margin-remove-top">
+        <a href="#navSection" id="hamburger" class="uk-float-left uk-position-fixed uk-margin-small"
+            style="z-index: 10;" uk-toggle><i class="fas fa-bars fa-4x icon-dark"></i></a>
+        <div class="uk-width-1-1@s uk-text-center">
+            <h1>Contact page</h1>
+            <p>Coming soon</p>
+        </div>
+    </div>
+    <!-- End Contact Page -->
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="./js/pageControl.js"></script>
+</body>
+
+</html>
