@@ -21,12 +21,10 @@ const pageContainer = $('#pageContainer');
 const home = $('#home');
 const webDev = $('#webDev');
 const production = $('#production');
-const contact = $('#contact');
 
 const homeBtnParent = $('#homeBtn');
 const webDevBtnParent = $('#webBtn');
 const productionBtnParent = $('#productionBtn');
-const contactBtnParent = $('#contactBtn');
 
 
 // button functions
@@ -51,6 +49,4 @@ $(document).ready(function(){
     homeBtnParent.addClass('uk-active');
     webDev.hide();
     production.hide();
-    contact.hide();
-
   });
