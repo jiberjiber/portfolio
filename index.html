@@ -59,19 +59,19 @@
                 <li id="productionBtn" class="uk-parent">
                     <a class="navBtn" uk-toggle="#navSection" data-tab="production">Live Event Portfolio</a>
                 </li>
-                <li id="contactBtn" class="uk-parent">
-                    <a class="navBtn" uk-toggle="#navSection" data-tab="contact">Contact</a>
+                <li class="uk-parent">
+                    <a href="mailto:evan@boswood.net">Contact</a>
                 </li>
             </ul>
             <div class="nav-footer">
-                <button class="uk-button uk-button-large">Download my Resume <i
+                <button class="uk-button uk-button-large uk-button-primary">Download my Resume <i
                         class="fas fa-cloud-download-alt"></i></button>
             </div>
         </div>
     </div>
 
-<div id="pageContainer">
-    <div id="home" class="uk-child-width-expand@s uk-margin-remove-top" uk-grid>
+<div id="pageContainer" class="darker">
+    <div id="home" class="uk-child-width-expand@s uk-margin-remove-top uk-background-secondary" uk-grid>
         <a href="#navSection" id="hamburger" class="uk-float-left uk-position-fixed" style="z-index: 10;" uk-toggle><i
                 class="fas fa-bars fa-4x icon-light"></i></a>
         <!-- Center Carousel -->
@@ -102,8 +102,8 @@
         </div>
 
         <!-- Right Greeting -->
-        <div class="uk-width-2-5@s uk-margin-auto-vertical">
-            <div class="uk-flex-auto">
+        <div class="uk-width-2-5@s uk-margin-auto-vertical uk-light">
+            <div class="uk-flex-auto darker">
                 <span class="subheading uk-margin-remove-bottom">Hello! I'm</span>
                 <h1 class="uk-margin-small-bottom uk-margin-remove-top greetingHeader">Evan Boswood</h1>
                 <h2 class="uk-margin-small greetingHeader greetingTitle">Production Manager</h2>
@@ -130,12 +130,12 @@
 
 
     <!-- Begin Web Dev Portfolio -->
-    <div id="webDev" class="uk-margin-remove-top" uk-grid>
+    <div id="webDev" class="uk-margin-remove-top uk-background-secondary uk-light uk-height-viewport" uk-grid>
         <a href="#navSection" id="hamburger" class="uk-float-left uk-position-fixed uk-margin-small"
             style="z-index: 10;" uk-toggle><i class="fas fa-bars fa-4x icon-dark"></i></a>
-        <div class="uk-width-1-1@s uk-text-center">
-            <h1>Web Development Portfolio</h1>
-            <p>Below are all the projects I've completed</p>
+        <div class="uk-width-1-1@s uk-text-center uk-margin-auto-vertical uk-padding">
+            <h1 class="uk-heading-medium">Web Development Portfolio</h1>
+            <p>An assortment of things I've created</p>
         </div>
 
         <!-- Row 1 -->
@@ -146,10 +146,10 @@
             <p class="uk-text-italic">Allume Live Productions Website</p>
         </div>
         <div class="uk-width-1-4@s uk-padding uk-text-center">
-            <a href="https://jiberjiber.github.io/RPS_JS/" target="_blank">
-                <img class="uk-border-rounded" src="./img/rps.png" alt="Javascript Rock Paper Scissors" uk-img>
+            <a href="https://jiberjiber.github.io/dog-date/" target="_blank">
+                <img class="uk-border-rounded" src="./img/dogdate.jpg" alt="Dog Date" uk-img>
             </a>
-            <p class="uk-text-italic">Javascript Rock/Paper/Scissors</p>
+            <p class="uk-text-italic">Dog Date <span class="newAccent">*v2.0.0</span></p>
         </div>
         <div class="uk-width-1-4@s uk-padding uk-text-center">
             <a href="https://jiberjiber.github.io/password-generator/" target="_blank">
@@ -178,10 +178,10 @@
             <p class="uk-text-italic">Weather Dashboard</p>
         </div>
         <div class="uk-width-1-4@s uk-padding uk-text-center">
-            <a href="https://jiberjiber.github.io/dog-date/" target="_blank">
-                <img class="uk-border-rounded" src="./img/dogdate.jpg" alt="Dog Date" uk-img>
+            <a href="https://jiberjiber.github.io/RPS_JS/" target="_blank">
+                <img class="uk-border-rounded" src="./img/rps.png" alt="Javascript Rock Paper Scissors" uk-img>
             </a>
-            <p class="uk-text-italic">Dog Date (Project 1)</p>
+            <p class="uk-text-italic">Javascript Rock/Paper/Scissors</p>
         </div>
         <div class="uk-width-1-4@s uk-padding uk-text-center">
             <a href="https://jiberjiber.github.io/bootcamp-portfolio/" target="_blank">
@@ -194,27 +194,18 @@
 
 
     <!-- Begin Production Portfolio -->
-    <div id="production" class="uk-margin-remove-top">
-        <a href="#navSection" id="hamburger" class="uk-float-left uk-position-fixed uk-margin-small"
-            style="z-index: 10;" uk-toggle><i class="fas fa-bars fa-4x icon-dark"></i></a>
-        <div class="uk-width-1-1@s uk-text-center">
-            <h1>Production Portfolio</h1>
-            <p>Coming soon</p>
+    <div id="production" class="uk-margin-remove-top uk-background-secondary uk-height-viewport uk-light">
+        <a href="#navSection" id="hamburger" class="uk-float-left uk-position-fixed uk-margin-small uk-light" uk-toggle><i class="fas fa-bars fa-4x icon-dark"></i></a>
+        <div class="uk-width-1-1@s uk-text-center uk-padding">
+            <h1 class="uk-heading-medium">Production Portfolio</h1>
+            <div class="uk-position-center">
+                <h1 class="uk-heading-small">The best place to view my production work is at
+                    <a class="uk-button uk-button-large uk-button-default" href="http://allumeliveproductions.com">AllumeLiveProductions.com</a>
+                </h1>
+            </div>
         </div>
     </div>
     <!-- End Production Portfolio -->
-
-
-    <!-- Begin Contact Page -->
-    <div id="contact" class="uk-margin-remove-top">
-        <a href="#navSection" id="hamburger" class="uk-float-left uk-position-fixed uk-margin-small"
-            style="z-index: 10;" uk-toggle><i class="fas fa-bars fa-4x icon-dark"></i></a>
-        <div class="uk-width-1-1@s uk-text-center">
-            <h1>Contact page</h1>
-            <p>Coming soon</p>
-        </div>
-    </div>
-    <!-- End Contact Page -->
 </div>
 
 
