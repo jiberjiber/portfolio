@@ -31,6 +31,10 @@ const productionBtnParent = $('#productionBtn');
 
 
 $('.navBtn').on('click',function(){
+    if($(this).attr('data-tab') === 'home'){
+        window.location.reload();
+        return;
+    }
     navigate($(this).attr('data-tab'));
 });
 
