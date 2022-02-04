@@ -43,18 +43,16 @@
     <div id="navSection" uk-offcanvas="overlay: true;">
         <div class="uk-offcanvas-bar">
             <a href="#navSection" uk-toggle><i class="far fa-times-circle"></i></a>
-            <h1 class="logo">
+            <h1 class="logo uk-align-center">
                 <a href="#">
                     <span class="authorImage"></span>
                 </a>
+                <br>
                 Evan Boswood
             </h1>
             <ul class="uk-nav uk-nav-default">
                 <li id="homeBtn" class="uk-parent">
                     <a class="navBtn" uk-toggle="#navSection" data-tab="home">Home</a>
-                </li>
-                <li id="webBtn" class="uk-parent">
-                    <a class="navBtn" uk-toggle="#navSection" data-tab="webDev">Web Dev Portfolio</a>
                 </li>
                 <li id="productionBtn" class="uk-parent">
                     <a class="navBtn" uk-toggle="#navSection" data-tab="production">Live Event Portfolio</a>
@@ -64,7 +62,7 @@
                 </li>
             </ul>
             <div class="nav-footer">
-                <a class="uk-button uk-button-large uk-button-primary" target="_blank" href="./assets/files/resume.pdf" download>Download my Resume <i
+                <a class="uk-button uk-button-large uk-button-primary" target="_blank" href="./assets/files/Resume2022.pdf" download>Download my Resume <i
                         class="fas fa-cloud-download-alt"></i></a>
             </div>
         </div>
@@ -77,67 +75,26 @@
         <!-- Center Carousel -->
         <div id="" uk-slideshow="autoplay: true; pause-on-hover: true; animation: fade;">
             
-            <ul class="uk-slideshow-items" uk-height-viewport>
-                <li>
-                    <img src="./assets/img/mk4.jpg" alt="" uk-cover>
-                </li>
-
-                <li><img src="./assets/img/mk5.jpg" alt="" uk-cover></li>
-                <li><img src="./assets/img/wax1.jpg" alt="" uk-cover></li>
-                <li><img src="./assets/img/wax4.jpg" alt="" uk-cover></li>
-                <li><img src="./assets/img/hb1.jpg" alt="" uk-cover></li>
-                <li><img src="./assets/img/4b3.jpg" alt="" uk-cover></li>
-                <li><img src="./assets/img/4b2.jpg" alt="" uk-cover></li>
-                <li><img src="./assets/img/meduza8.jpg" alt="" uk-cover></li>
-                <li><img src="./assets/img/wax3.jpg" alt="" uk-cover></li>
-                <li><img src="./assets/img/mk3.jpg" alt="" uk-cover></li>
+            <ul class="uk-slideshow-items" uk-height-viewport="expand: true">
                 <li><img src="./assets/img/mk4.jpg" alt="" uk-cover></li>
-                <li><img src="./assets/img/shaq3.jpg" alt="" uk-cover></li>
-                <li><img src="./assets/img/mk1.jpg" alt="" uk-cover></li>
-                <li><img src="./assets/img/meduza4.jpg" alt="" uk-cover></li>
-                <li><img src="./assets/img/jinx3.jpeg" alt="" uk-cover></li>
-                <li><img src="./assets/img/shaq1.jpg" alt="" uk-cover></li>
-                <li><img src="./assets/img/wax2.jpg" alt="" uk-cover></li>
-                <li><img src="./assets/img/meduza3.jpg" alt="" uk-cover></li>
-                <li><img src="./assets/img/op2.jpeg" alt="" uk-cover></li>
-                <li><img src="./assets/img/meduza2.jpg" alt="" uk-cover></li>
-                <li><img src="./assets/img/4b1.jpg" alt="" uk-cover></li>
-                <li><img src="./assets/img/trampa3.jpeg" alt="" uk-cover></li>
+                <li><img src="./assets/img/4b2.jpg" alt="" uk-cover></li>
+                <li><img src="./assets/img/wax3.jpg" alt="" uk-cover></li>
                 <li><img src="./assets/img/mk2.jpg" alt="" uk-cover></li>
-                <li><img src="./assets/img/meduza5.jpg" alt="" uk-cover></li>
-                <li><img src="./assets/img/op1.jpeg" alt="" uk-cover></li>
-                <li><img src="./assets/img/jinx1.jpeg" alt="" uk-cover></li>
                 <li><img src="./assets/img/trampa2.jpeg" alt="" uk-cover></li>
                 <li><img src="./assets/img/shaq2.jpg" alt="" uk-cover></li>
-                <li><img src="./assets/img/meduza7.jpg" alt="" uk-cover></li>
-                <li><img src="./assets/img/trampa1.jpeg" alt="" uk-cover></li>
-                <li><img src="./assets/img/meduza6.jpg" alt="" uk-cover></li>
-                <li><img src="./assets/img/trampa4.jpeg" alt="" uk-cover></li>
             </ul>
         </div>
 
         <!-- Right Greeting -->
-        <div class="uk-width-2-5@s uk-margin-auto-vertical uk-light">
-            <div class="uk-flex-auto darker">
-                <span class="subheading uk-margin-remove-bottom">Hello! I'm</span>
-                <h1 class="uk-margin-small-bottom uk-margin-remove-top greetingHeader">Evan Boswood</h1>
-                <h2 class="uk-margin-small greetingHeader greetingTitle">Live Production</h2>
-                <h2 class="uk-margin-small greetingHeader greetingSubtitle">Web Development</h2>
-                <p class="greetingText">
-                    I am a live event
-                    <span class="greetingTitle">Production Manager</span>
-                    and Full-Stack
-                    <span class="greetingSubtitle">Web Developer</span>
-                    from Austin, Texas. I promote energy at concerts and music festivals and professionalism online.
-                </p>
-                <ul class="social-list">
+        <div class="uk-margin-auto uk-position-center uk-light uk-background-secondary uk-display-block uk-padding uk-blend-hard-light uk-border-rounded">
+                <h1 class="uk-margin-small-bottom uk-margin-remove-top greetingHeader uk-flex uk-flex-center">Evan Boswood</h1>
+                <span class="subheading uk-flex uk-flex-center">Live Production Programmer, Technician, and Operator</span>
+                <ul class="social-list uk-flex uk-flex-center">
+                    <li class="social-item"><a href="https://www.instagram.com/bozzywood/" target="_blank"><i
+                        class="fab fa-instagram fa-3x"></i></a></li>
                     <li class="social-item"><a href="https://www.facebook.com/evan.boswood.39" target="_blank"><i
                                 class="fab fa-facebook-f fa-3x"></i></a></li>
-                    <li class="social-item"><a href="https://www.linkedin.com/in/evan-boswood/" target="_blank"><i
-                                class="fab fa-linkedin-in fa-3x"></i></a></li>
                 </ul>
-
-            </div>
         </div>
     </div>
 
@@ -220,11 +177,39 @@
     <div id="production" class="uk-margin-remove-top uk-background-secondary uk-height-viewport uk-light">
         <a href="#navSection" id="hamburger" class="uk-float-left uk-position-fixed uk-margin-small uk-light" uk-toggle><i class="fas fa-bars fa-4x icon-dark"></i></a>
         <div class="uk-width-1-1@s uk-text-center uk-padding">
-            <h1 class="uk-heading-medium">Production Portfolio</h1>
-            <div class="uk-position-center">
-                <h1 class="uk-heading-small">The best place to view my production work is at
-                    <a class="uk-button uk-button-large uk-button-default" target="_blank" href="http://allumeliveproductions.com">AllumeLiveProductions.com</a>
-                </h1>
+            <h1 class="uk-heading-medium uk-light">Lighting, Visuals, and Laser</h1>
+            <div class="uk-child-width-expand@s uk-text-center uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/mk4.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/mk5.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/wax1.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/wax4.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/hb1.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/4b3.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/4b2.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/meduza8.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/wax3.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/mk3.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/mk4.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/shaq3.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/mk1.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/meduza4.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/shaq1.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/wax2.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/meduza3.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/op2.jpeg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/meduza2.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/4b1.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/trampa3.jpeg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/mk2.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/meduza5.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/op1.jpeg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/jinx1.jpeg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/trampa2.jpeg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/shaq2.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/meduza7.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/trampa1.jpeg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/meduza6.jpg" alt="" ></div>
+                <div class="uk-width-1-3@m uk-width-1-2@s"><img src="./assets/img/trampa4.jpeg" alt="" ></div>
             </div>
         </div>
     </div>
